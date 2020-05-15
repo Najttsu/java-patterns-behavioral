@@ -63,14 +63,14 @@ public class App {
     weather.timePasses();
 
     // Generic observer inspired by Java Generics and Collection by Naftalin & Wadler
-    LOGGER.info("--Running generic version--");
-    GWeather genericWeather = new GWeather();
-    genericWeather.addObserver(new GOrcs());
-    genericWeather.addObserver(new GHobbits());
-
-    genericWeather.timePasses();
-    genericWeather.timePasses();
-    genericWeather.timePasses();
-    genericWeather.timePasses();
+//    LOGGER.info("--Running generic version--");
+//    GWeather genericWeather = new GWeather();
+//    genericWeather.addObserver(new GOrcs());
+//    genericWeather.addObserver(new GHobbits());
+//
+//    genericWeather.timePasses();
+//    genericWeather.timePasses();
+//    genericWeather.timePasses();
+//    genericWeather.timePasses();
   }
 }
