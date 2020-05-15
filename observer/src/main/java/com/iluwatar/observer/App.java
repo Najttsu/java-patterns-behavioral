@@ -54,6 +54,7 @@ public class App {
     Weather weather = new Weather();
     weather.addObserver(new Orcs());
     weather.addObserver(new Hobbits());
+    weather.addObserver(new Humans());
     // add an instance of additional race as another observer
 
     weather.timePasses();

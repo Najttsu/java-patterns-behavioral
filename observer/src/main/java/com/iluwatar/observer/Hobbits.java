@@ -35,7 +35,10 @@ public class Hobbits implements WeatherObserver {
   @Override
   public void update(WeatherType currentWeather) {
     switch (currentWeather) {
-      case COLD:
+      case FOGGY:
+        LOGGER.info("The hobbits are bored in foggy weather.");
+        break;
+        case COLD:
         LOGGER.info("The hobbits are shivering in the cold weather.");
         break;
       case RAINY:

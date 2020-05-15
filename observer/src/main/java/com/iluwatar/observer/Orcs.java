@@ -35,7 +35,10 @@ public class Orcs implements WeatherObserver {
   @Override
   public void update(WeatherType currentWeather) {
     switch (currentWeather) {
-      case COLD:
+      case FOGGY:
+        LOGGER.info("The orcs are can't see nothing from fog.");
+        break;
+        case COLD:
         LOGGER.info("The orcs are freezing cold.");
         break;
       case RAINY:
